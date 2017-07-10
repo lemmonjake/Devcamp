@@ -17,7 +17,8 @@ module ApplicationHelper
   end
   
   def copyright_generator
+
     LemmonViewTool::Renderer.copyright 'Jake Lemmon', 'All rights reserved'
   end
-end
+
 
