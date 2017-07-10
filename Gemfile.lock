@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/lemmonjake/jake_lemmon_view_tool
-  revision: b8958ab6867327af53bd23a0e38eb66fa4940981
-  specs:
-    jake_lemmon_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -195,7 +189,6 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise (~> 4.3)
   friendly_id (~> 5.1.0)
-  jake_lemmon_view_tool!
   jbuilder (~> 2.5)
   jquery-rails
   lemmon_view_tool (~> 0.1.0)

@@ -20,5 +20,5 @@ module ApplicationHelper
 
     LemmonViewTool::Renderer.copyright 'Jake Lemmon', 'All rights reserved'
   end
-
+end
 
