@@ -168,7 +168,7 @@ h6, .h6 {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 65rem;
   }
 }
 
@@ -216,4 +216,17 @@ h6, .h6 {
 
 .app-footer {
   color: white;
+}
+
+.tech-news{
+  color: black;
+  margin: 20px;
+}
+
+.tech-news a {
+  color: blue;
+}
+
+.tech-news > .card {
+  padding: 30px;
 }
