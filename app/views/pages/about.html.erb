@@ -9,7 +9,28 @@
       <div class="col-md-4">
         
         <%= image_tag "me.jpg", width: 300, alt: "Profile Image", class: 'profile-img' %>
+      
+        <div class="skills">
+            <% @skills.each do |skill| %>
+              <div class="skill">
+                <h4><%= skill.title %></h4>
+                <div class="progress">
+                  <div 
+                    class="progress-bar progress-bar-striped bg-warning"
+                    role="progressbar"
+                    aria-valuenow="<%= skill.percent_utilized %>"
+                    aria-valuemax="100"
+                    style="width: <%= skill.percent_utilized %>%"
+                  >
+                  </div>
+                </div>
+              </div>
+            <% end %>
+        </div>
+      
       </div>
+      
+      
       <div class="col-md-8">
         <p>To try to define the culmination of an entire life experience on a small about me internet page seems absurd.</p>
         
@@ -46,8 +67,16 @@
               the second job that i had was
             </div>
           </div>
-          
+          <div class="collapse" id="education">
+            <div class="card card-block">
+              Preschool
+            </div>
+            <div class="card card-block">
+              elementary school
+            </div>
+          </div>
         </p>
+        
       </div>
     </div>    
   </div>
